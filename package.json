@@ -1,6 +1,6 @@
 {
   "name": "sliderlight",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A light-weight slider Library",
   "main": "dist/sliderlight.js",
   "types": "types/index.d.ts",
