@@ -1,8 +1,8 @@
 # Slider Light
 
-![npm version](https://img.shields.io/npm/v/sliderlight.svg)
+![npm version](https://img.shields.io/npm/v/slider-light.svg)
 ![license](https://img.shields.io/github/license/MoncyDev/slider-light)
-![downloads](https://img.shields.io/npm/dm/sliderlight.svg)
+![downloads](https://img.shields.io/npm/dm/slider-light.svg)
 
 Slider-light is a light-weight and basic JavaScript slider library which enables developers to easily create sliders with basic effects and navigations.
 
@@ -34,9 +34,9 @@ const slider = new SliderLight(".slider-container", {
 
 ```html
 <div className="slider-container">
-  <div className="slide">Slide 1</div>
-  <div className="slide">Slide 2</div>
-  <div className="slide">Slide 3</div>
+  <div className="slider-light">Slide 1</div>
+  <div className="slider-light">Slide 2</div>
+  <div className="slider-light">Slide 3</div>
   <button className="prev">Prev</button>
   <button className="next">Next</button>
 </div>

@@ -52,10 +52,10 @@
 .slider-slide-light {
   width: 100%;
   height: 100%;
-}
-
-.slider-slide-light-active {
-  transform: translateX(0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(100%);
 }
 
 .slider-slide-light-next {
@@ -64,4 +64,7 @@
 
 .slider-slide-light-prev {
   transform: translateX(-100%);
+}
+.slider-slide-light-active {
+  transform: translateX(0);
 }

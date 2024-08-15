@@ -46,11 +46,11 @@ export default class SliderLight {
   updateSlides() {
     this.slides.forEach((slide, index) => {
       slide.classList.remove(`slider-${this.effect}-light-active`);
+      slide.classList.remove(`slider-${this.effect}-light-prev`);
+      slide.classList.remove(`slider-${this.effect}-light-next`);
       if (index === this.currentSlide) {
         slide.classList.add(`slider-${this.effect}-light-active`);
       } else {
-        slide.classList.remove(`slider-${this.effect}-light-prev`);
-        slide.classList.remove(`slider-${this.effect}-light-next`);
         if (
           index ===
           (this.currentSlide - 1 + this.slides.length) % this.slides.length
