@@ -6,7 +6,7 @@
 
 Slider-light is a light-weight and basic JavaScript slider library which enables developers to easily create sliders with basic effects and navigations.
 
-### (Stable Version: v1.0.6)
+### (Stable Version: v1.0.8)
 
 ## Installation
 
