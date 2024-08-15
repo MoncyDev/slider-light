@@ -23,7 +23,8 @@ export default class SliderLight {
       slide.classList.add(`slider-${this.effect}-light`);
     });
     this.container.classList.add(
-      `slider-${this.effect} slider-light-container`
+      `slider-${this.effect}`,
+      `slider-light-container`
     );
   }
   showSlide(index) {

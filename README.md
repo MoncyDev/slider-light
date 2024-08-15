@@ -6,10 +6,7 @@
 
 Slider-light is a light-weight and basic JavaScript slider library which enables developers to easily create sliders with basic effects and navigations.
 
-### (Stable Version: v1.0.5)
-
-
-
+### (Stable Version: v1.0.6)
 
 ## Installation
 
@@ -29,9 +26,9 @@ Here’s a basic example of how to use Slider-Light:
 import SliderLight from "sliderlight";
 
 const slider = new SliderLight(".slider-container", {
-      prevButton: ".prev",
-      nextButton: ".next",
-      effect: "slide", 
+  prevButton: ".prev",
+  nextButton: ".next",
+  effect: "slide",
 });
 ```
 
@@ -39,15 +36,16 @@ const slider = new SliderLight(".slider-container", {
 
 ```html
 <div className="slider-container">
- <div className="slide">Slide 1</div>
- <div className="slide">Slide 2</div>
- <div className="slide">Slide 3</div>
- <button className="prev">Prev</button>
- <button className="next">Next</button>
+  <div className="slide">Slide 1</div>
+  <div className="slide">Slide 2</div>
+  <div className="slide">Slide 3</div>
+  <button className="prev">Prev</button>
+  <button className="next">Next</button>
 </div>
 ```
 
 ### Effects:
+
 Available effects for the silders are as follows:
 
 - slide
@@ -57,5 +55,3 @@ Available effects for the silders are as follows:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-
