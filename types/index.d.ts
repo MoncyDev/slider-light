@@ -1,4 +1,4 @@
-declare module "sliderlight" {
+declare module "slider-light" {
   interface SliderOptions {
     prevButton?: string;
     nextButton?: string;
