@@ -1,8 +1,8 @@
 {
-  "name": "slider-light",
-  "version": "1.0.1",
+  "name": "sliderlight",
+  "version": "1.1.0",
   "description": "A light-weight slider Library",
-  "main": "dist/sliderlight.js",
+  "main": "dist/sliderlight.bundle.js",
   "types": "types/index.d.ts",
   "scripts": {
     "build": "webpack",
@@ -12,6 +12,14 @@
     "type": "git",
     "url": "git+https://github.com/MoncyDev/slider-light.git"
   },
+  "keywords": [
+    "javascript",
+    "typescript",
+    "slider",
+    "carousel",
+    "swiper",
+    "slider plugin"
+  ],
   "author": "Moncy Yohannan",
   "license": "MIT",
   "devDependencies": {

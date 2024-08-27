@@ -1,17 +1,26 @@
-declare module "slider-light" {
+declare module "sliderLight" {
+  interface BreakpointOptions {
+    slidesPerView?: number;
+    margin?: number;
+  }
+
   interface SliderOptions {
     prevButton?: string;
     nextButton?: string;
     effect?: string;
+    transition?: number;
+    autoplay?: number;
+    margin?: number;
+    slidesPerView?: number;
+    pagination?: string;
+    breakpoints?: {
+      [width: number]: BreakpointOptions;
+    };
   }
 
   class SliderLight {
     constructor(container: string, options?: SliderOptions);
     init(): void;
-    prevSlide(): void;
-    nextSlide(): void;
-    showSlide(index: number): void;
-    setupNavigation(): void;
   }
 
   export default SliderLight;
