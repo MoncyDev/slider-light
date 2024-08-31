@@ -8,10 +8,24 @@ Sliderlight is a light-weight and basic JavaScript slider library which enables 
 
 ## Installation
 
-You can install SliderLight using npm:
+### Install from NPM
+
+We can install SliderLight using npm:
 
 ```bash
 npm install sliderlight
+```
+
+```javascript
+import SliderLight from "sliderlight";
+```
+
+### Using CDN
+
+You can directly use SliderLight in your ptoject using a CDN link
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/sliderlight@1.1.2/dist/sliderlight-bundle.min.js"></script>
 ```
 
 Git Repository: https://github.com/MoncyDev/slider-light/
@@ -25,8 +39,6 @@ const slider = new sliderLight(container, SliderOptions); // All slider options 
 Here’s a basic example of how to use Slider-Light:
 
 ```javascript
-import SliderLight from "sliderlight";
-
 const slider = new SliderLight(".slider-container", {
   //SliderOptions{}
   prevButton: ".prev-slider-light",
