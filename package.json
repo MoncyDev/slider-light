@@ -22,6 +22,9 @@
   ],
   "author": "Moncy Yohannan",
   "license": "MIT",
+  "exports": {
+    "./css": "./dist/sliderlight.min.css"
+  },
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.3",

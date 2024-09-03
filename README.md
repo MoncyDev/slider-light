@@ -18,6 +18,8 @@ npm install sliderlight
 
 ```javascript
 import SliderLight from "sliderlight";
+// import SliderLight styles
+import "sliderlight/css";
 ```
 
 ### Using CDN
@@ -25,7 +27,11 @@ import SliderLight from "sliderlight";
 You can directly use SliderLight in your ptoject using a CDN link
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/sliderlight@1.1.2/dist/sliderlight-bundle.min.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/sliderlight@1/dist/sliderlight.min.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/sliderlight@1/dist/sliderlight-bundle.min.js"></script>
 ```
 
 Git Repository: https://github.com/MoncyDev/slider-light/

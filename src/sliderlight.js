@@ -1,5 +1,3 @@
-import "./styles/slider.light.css";
-
 export default class SliderLight {
   constructor(container, options = {}) {
     this.container = document.querySelector(container);
