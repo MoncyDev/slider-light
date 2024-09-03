@@ -23,6 +23,10 @@
   "author": "Moncy Yohannan",
   "license": "MIT",
   "exports": {
+    ".": {
+      "types": "./types/index.d.ts",
+      "default": "./dist/sliderlight.bundle.js"
+    },
     "./css": "./dist/sliderlight.min.css"
   },
   "devDependencies": {

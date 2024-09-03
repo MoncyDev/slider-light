@@ -1,4 +1,4 @@
-declare module "sliderLight" {
+declare module "sliderlight" {
   interface BreakpointOptions {
     slidesPerView?: number;
     margin?: number;
